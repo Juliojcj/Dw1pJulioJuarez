@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/slides.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="row">
+        <div class="col-6">
+          <img
+            class="logoEfpem"
+            src="./images/efpem.png"
+            width="150px"
+            height="100px"
+          />
+        </div>
+        <div class="col-6">
+          <img
+            class="logoUsac"
+            src="./images/usac.png"
+            width="250px"
+            height="100px"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="carreras.html">Carreras</a>
+      <a href="ubicacion.html">Ubicación</a>
+      <a href="javascript:void(0);" class="icon" onclick="administrarMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!--CONTENIDO-->
+    <div class="row">
+      <div class="col-12">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/Usac_1.jpg" class="imageSlide" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/Usac_2.jpg" class="imageSlide" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/Usac_3.jpg" class="imageSlide" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <center>
+      <div class="col-6 gris">Misión</div>
+      <div class="col-6 gris">Visión</div>
+      </center>
+    </div>
+    <div class="row">
+      <center>
+      <div class="col-6 gris">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ratione culpa magni officiis atque eos similique explicabo asperiores, obcaecati autem vel consequatur ipsam, assumenda minima temporibus! Rem quasi veritatis ex.</div>
+      <div class="col-6 gris">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos voluptatum earum laborum vero unde. Sit, illo quod tempore eaque veritatis blanditiis voluptatibus cumque impedit velit cum esse nesciunt delectus labore.</div>
+      </center>
+    </div>
+    <br>
+    <div class="row">
+      <center>
+      <div class="col-3 g1">Información para estudiantes</div>
+      <div class="col-3 g2">PADEP</div>
+      <div class="col-3 g3">Programa Galileo</div>
+      <div class="col-3 g4">Programa Académico Peraptorio</div>
+    </center>
+    </div>
+    <div class="row">
+    <center>
+      <div class="col-3 g1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptate totam quod molestias deserunt ut, earum consequatur sed incidunt, fugit inventore hic harum numquam ad atque? Veritatis laborum eum molestiae!</div>
+      <div class="col-3 g2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis saepe aperiam, veniam qui doloremque sit temporibus est quibusdam ab voluptates iure suscipit architecto omnis ducimus dolore sed aut in nisi.</div>
+      <div class="col-3 g3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam esse distinctio velit rem nisi quae pariatur quidem minima ea tempora eveniet nihil aperiam amet, veritatis ut repellendus similique assumenda molestias.</div>
+      <div class="col-3 g4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias rem dolores accusamus ullam minima ad. Ad sequi libero architecto consequatur, nulla vel et necessitatibus, quasi voluptates, quae temporibus totam?</div>
+    </center>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <p class="pbx">PBX: XXXXXXXXXX - Dirección: XXXXXXXXXXX</p>
+      </div>
+    </div>
+
+
+
+    <!--FIN CONTENIDO-->
+    <div class="footer">
+      <div class="row">
+        <div class="col-12">
+          <p class="footerText">Id y Enseñad a Todos</p>
+          <p class="footerText">2020 Escuela de Formación de Profesores de Enseñanza Media - EFPEM</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/slides.js"></script>
+    <script src="js/navbar.js"></script>
+  </body>
+</html>

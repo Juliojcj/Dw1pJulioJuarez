@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.header {
+  padding: 15px;
+}
+.logoUsac {
+  float: right;
+}
+.pbx{
+  float: right;
+}
+/*Navbar*/
+.topnav {
+  background-color: #971b2f;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+.footer{
+  background-color: #971b2f;
+}
+.footerText{
+  text-align: center;
+  color: white;
+}
+.carrera{
+  border: 1px solid blue;
+}
+.carrera_imagen{
+  min-height: 215px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+.carrera_boton{
+  background-color: #971B2F;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+.informacion_boton{
+  background-color: #971B2F;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  cursor: pointer;
+}
+.information_titulo{
+  font-weight: bold;
+  text-align: center;
+}
+.informacion_contendor{
+  border: 1px solid blue;
+  background-color: #C48F34;
+  text-align: center;
+}
+.informacion_imagen{
+  margin: 50px 0;
+  color: white;
+}
+.informacion_fecha{
+  text-align: right;
+}
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+  
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+ 
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+.gris {
+background-color: moccasin;
+
+}
+.g1 {
+  background-color: rgb(185, 175, 156);
+  
+}
+.g2 {
+  background-color: rgb(68, 67, 66);
+  
+}
+  
+.g3 {
+  background-color: rgb(192, 55, 55);
+    
+}
+.g4 {
+  background-color: rgb(196, 143, 52);
+      
+}
+.col-a {
+  background-color: rgb(196, 143, 52);
+  width: 25%;
+  height: 25%;
+  
+      
+}
+
+          
+
+
+
+
+
+/*Media queries*/
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .logoUsac, .logoEfpem {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
